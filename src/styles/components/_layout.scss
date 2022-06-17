@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'DejaVuSansBold';
+  src: local('DejaVuSansBold'),
+    url(../../../public/fonts/DejaVuSansBold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'NovecentoWideDemiBold';
+  src: local('NovecentoWideDemiBold'),
+    url(../../../public/fonts/NovecentoWideDemiBold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: local('HelveticaNeue'),
+    url(../../../public/fonts/HelveticaNeue.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src: local('HelveticaNeueBold'),
+    url(../../../public/fonts/HelveticaNeueBold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+    url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: local('MyriadPro'), url(../../../public/fonts/MyriadPro.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MyriadProSemibold';
+  src: local('MyriadProSemibold'), url(../../../public/fonts/MyriadProSemibold.ttf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+  font-family: 'NovecentoWideDemiBold', 'DejaVuSansBold', sans-serif;
+  font-weight: bold;
+}
+
+.page-header {
+  background-color: #2ccc6f;
+  height: 100px;
+  color: #f5fefc;
+}
+
+.container-fluid {
+  max-width: 960px !important;
+}
+
+.main-menu-title {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.row > * {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}

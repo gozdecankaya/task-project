@@ -1,0 +1,161 @@
+.animation {
+  height: 795px;
+  .slide {
+    background-color: #2ecc71;
+    height: 525px;
+  }
+
+}
+
+.slider {
+  height: 550px;
+}
+
+.youtube-section {
+  height: 319px;
+  width: 100%;
+  background-color: #efefef;
+
+  .video {
+    width: 380px;
+    height: 240px;
+    padding-left: 12px !important;
+
+    figure {
+      background: url(https://www.dummyimage.com/380x240/000/fff);
+      width: 100%;
+      height: 100%;
+
+      svg {
+        width: 45px;
+        height: 56px;
+        fill: #ffffff;
+      }
+    }
+  }
+
+  .title {
+    color: #737373;
+    line-height: 24px;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .description {
+    height: 240px;
+    padding-right: 24px !important;
+    padding-left: 40px !important;
+    font-size: 14px;
+    color: #8a8888;
+    line-height: 22px;
+    font-family: 'MyriadProSemibold', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.slider-section {
+  padding: 50px 0;
+  line-height: 22px;
+  color: #8a8888;
+  font-family: 'MyriadProSemibold', sans-serif;
+  gap: 20px;
+
+  &-title {
+    font-size: 24px !important;
+  }
+  &-description {
+    font-size: 14px;
+    font-family: 'MyriadPro', sans-serif;
+    padding-left: 28px !important;
+    padding-right: 30px !important;
+  }
+
+  .slide {
+    gap: 20px;
+    transform-style: preserve-3d;
+    height: 300px;
+    position: relative;
+
+    :active {
+      transition-duration: 1s;
+    }
+  }
+
+  .slide-item {
+    &:first-child,
+    :last-child {
+      overflow: hidden;
+    }
+  }
+
+  figure {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .icon svg {
+    fill: #2ecc71;
+    width: 21px !important;
+    height: 31px !important;
+  }
+}
+
+.carousel {
+  height: 300px;
+  // width: calc(100vw - 3rem);
+  width: 100%;
+  overflow: scroll;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  .slide {
+    gap: 20px;
+  }
+
+  .carousel-image img {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    z-index: 2;
+    justify-content: center;
+  }
+
+  .slide-item {
+    height: 200px !important;
+    width: 300px !important;
+    // behavior: smooth;
+
+    :active {
+      transition-duration: 1s;
+    }
+  }
+
+  .carousel-image:hover {
+    transform: scale(1.4);
+    z-index: 5;
+  }
+
+  figure {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .icon svg {
+    fill: #2ecc71;
+    width: 21px !important;
+    height: 31px !important;
+  }
+
+  .carousel-info {
+    height: 173px;
+  }
+}

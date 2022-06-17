@@ -1,0 +1,49 @@
+.first-section {
+  background-color: #322f2f;
+  height: 140px;
+}
+
+.footer-copyright-section {
+  background-color: #efefef;
+}
+
+.banner-title {
+  font-size: 23px;
+  color: #efefef;
+  line-height: 22px !important;
+}
+
+.banner-button {
+  min-height: 40px;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.copyright-section {
+  background-color: #efefef;
+  height: 62px;
+  margin: 0;
+  color: #a5a5a5;
+  padding-top: 3px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.copyright-text {
+  padding-left: 0 !important;
+}
+
+.links {
+  padding-right: 0 !important;
+  gap: 6px;
+  font-size: 12px;
+  align-items: center;
+  color: #a5a5a5;
+  a {
+    text-decoration: none;
+    color: #a5a5a5;
+  }
+}

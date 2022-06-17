@@ -1,0 +1,100 @@
+.category {
+  padding: 45px 10px 0;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.filter {
+  gap: 10px;
+  font-size: 18px;
+  color: #737373;
+  &-selected {
+    color: #2ecc71;
+  }
+  padding-left: 0 !important;
+
+  .btn-link {
+    color: #737373;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  .btn-active {
+    color: #2ecc71;
+  }
+}
+
+.views {
+  .btn svg {
+    width: 15px !important;
+    height: 15px !important;
+    stroke: none;
+    fill: #737373;
+    :hover {
+      fill: #2ecc71;
+    }
+  }
+  .btn-active {
+    svg {
+      fill: #2ecc71 !important;
+    }
+  }
+}
+
+.portfolio,
+.list-group {
+  padding: 45px 10px 50px;
+  gap: 20px;
+}
+
+.image {
+  padding: 0 !important;
+  height: 220px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.icon-background {
+  width: 97px;
+  height: 97px;
+  border-radius: 48px;
+  background-color: #2ecc71;
+
+  figure img {
+    width: 33px;
+    height: 42px;
+    background-color: #ffffff;
+  }
+}
+
+.card-img {
+  height: 220px;
+}
+
+.list-group-item {
+  border-top-width: 1px !important;
+
+  &:hover,
+  :focus {
+    background-color: #737373;
+    .list-description {
+      color: #ffffff;
+    }
+  }
+}
+
+li {
+  .list-image {
+    margin: 0;
+  }
+
+  img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+}
+.list-description {
+  color: #737373;
+  font-size: 14px;
+}

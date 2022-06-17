@@ -1,0 +1,254 @@
+{
+  "header": {
+    "logo": "display",
+    "menu": ["home", "about", "work", "contact"]
+  },
+  "footer": {
+    "firstSection": {
+      "title": "are you ready to be blown away?",
+      "button": "click here to find out"
+    },
+    "copyRight": "copyright 2013 display.all rights reserved.",
+    "menu": ["home", "about", "work", "contact"]
+  },
+  "home": {
+    "banner": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu eratituy lacus, vel congue mauris. Fusce velitari justo, faucibus eu.",
+      "button": "browse portfolio"
+    },
+    "youtubeSection": {
+      "title": "get the know us a little better!",
+      "firstDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+      "secondDescription": "Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia. "
+    },
+    "projectSection": {
+      "sectionTitle": "a couple of our featured projects",
+      "sectionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu eratituy lacus, vel congue mauris. Fusce velitari justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros.",
+      "sliderItems": [
+      {
+        "id": "1",
+        "image": "./images/slider_1.jpg",
+        "title": "dark ui kit freebie",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu eratituy lacus, vel congue mauris. Fusce velitari justo, faucibus eu sagittis."
+      }, 
+      {
+      "id": "2",
+      "image": "./images/slider_2.jpg",
+      "title": "Dazzlesphere",
+      "description": "Quisque ut erat."
+      },
+      {
+        "id": "3",
+        "image": "./images/slider_3.jpg",
+        "title": "Voonyx",
+        "description": "Maecenas ut massa quis augue luctus tincidunt."
+      },
+      {
+        "id": "4",
+        "image": "./images/slider_4.jpg",
+        "title": "Rooxo",
+        "description": "Quisque ut erat. Curabitur gravida nisi at nibh."
+      },
+      {
+        "id": "5",
+        "image": "./images/slider_5.jpg",
+        "title": "Mybuzz",
+        "description": "Integer ac neque. Duis bibendum."
+      }
+    ]
+    }
+  },
+  "about": {
+    "title": "about my business",
+    "firstParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit .Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac. gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut. luctus a nulla. Donec sit amet saoien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.",
+    "secondParagraph": "Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus. vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Lorem ipsum dolor sit amet. consectetur adipiscing elit.",
+    "missionStatement": {
+      "title": "mission statement",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia."
+    },
+    "funFacts": {
+      "title": "fun facts",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi. guis tincidunt eros. Nullam tellus turpis. fringilla sit amet conque ut. luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi.Pellentesque dellentesque arcu a elit conque lacinia"
+    },
+    "services": {
+      "title": "services",
+      "categories": [
+        {
+          "id": 1,
+          "title": "web",
+          "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "list": [
+            {"id":1, "content": "Lorem ipsum dolor sit amet, consectetur adipiscingelit."},
+            {"id":2, "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fringilla sit amet."},
+            {"id":3, "content": "Lorem iosum dolor sit amet, consectetur adipiscing elit luctus donec."}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "photography",
+          "description": "Suspendisse non urna mi. quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla.",
+          "list": [
+            {"id":1, "content": "Suspendisse non urna mi. quis tincidunt eros."},
+            {"id":2, "content": "Suspendisse non urna mi. quis tincidunt eros."},
+            {"id":3, "content": "Suspendisse non urna mi. quis tincidunt eros."}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "seo",
+          "description": "Pellentesque pellentesque arcu a elit congue lacinia.",
+          "list": [
+            {"id":1, "content": "Pellentesque pellentesque arcu a elit"},
+            {"id":2, "content": "Pellentesque pellentesque arcu a elit"},
+            {"id":3, "content": "Pellentesque pellentesque arcu a elit"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "applications",
+          "description": "Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. ",
+          "list": [
+            {"id":1, "content": "Nullam tellus turpis, fringilla sit amet congue ut"},
+            {"id":2, "content": "Nullam tellus turpis, fringilla sit amet congue ut"},
+            {"id":3, "content": "Nullam tellus turpis, fringilla sit amet congue ut"}
+          ]
+        }
+      ]
+    }
+  },
+  "work":{
+    "title": "check out what i can do",
+    "listCategory": ["all", "print", "photography","web","applications"],
+    "works": [
+        {
+          "id": 1,
+          "name": "Gemsbok",
+          "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+          "image": "./images/slider_1.jpg",
+          "category": "print"
+        },
+        {
+          "id": 2,
+          "name": "Squirrel, nelson ground",
+          "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+          "image": "./images/slider_2.jpg",
+          "category": "print"
+        },
+        {
+          "id": 3,
+          "name": "Reedbuck, bohor",
+          "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+          "image": "./images/slider_3.jpg",
+          "category": "photography"
+        },
+        {
+          "id": 4,
+          "name": "Grebe, little",
+          "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+          "image": "./images/slider_4.jpg",
+          "category": "web"
+        },
+        {
+          "id": 5,
+          "name": "Lizard, blue-tongued",
+          "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+          "image": "./images/slider_1.jpg",
+          "category": "print"
+        },
+        {
+          "id": 6,
+          "name": "Gnu, brindled",
+          "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+          "image": "./images/slider_3.jpg",
+          "category": "web"
+        },
+        {
+          "id": 7,
+          "name": "Common raccoon",
+          "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+          "image": "./images/slider_4.jpg",
+          "category": "print"
+        },
+        {
+          "id": 8,
+          "name": "Common shelduck",
+          "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "print"
+        },
+        {
+          "id": 9,
+          "name": "Python, carpet",
+          "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "web"
+        },
+        {
+          "id": 10,
+          "name": "Bottle-nose dolphin",
+          "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "photography"
+        },
+        {
+          "id": 11,
+          "name": "Trumpeter, green-winged",
+          "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "web"
+        },
+        {
+          "id": 12,
+          "name": "Robin, white-throated",
+          "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "print"
+        },
+        {
+          "id": 13,
+          "name": "Squirrel, african bush",
+          "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "print"
+        },
+        {
+          "id": 14,
+          "name": "Rat, desert kangaroo",
+          "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+          "image": "https://placeimg.com/300/220/nature",
+          "category": "web"
+        }
+    ]
+  },
+  "contact": {
+    "title": "got a question or inquiry?",
+    "contactForm": {
+      "title": "contact form",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.",
+      "nameField": "Name",
+      "mailField": "Email Address",
+      "subjectField": "Subject",
+      "button": "send message",
+      "successMessage": "Thank you for getting in touch!"
+    },
+    "contactInfo": {
+      "title": "contact info",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit justo.",
+      "emailTitle": "email: ",
+      "email": "info@display.com",
+      "phoneTitle": "phone: ",
+      "phone": "1.306.222.4545",
+      "addressLine1": "222 2nd Ave South",
+      "addressLine2": "Saskabush, SK S7M 1T6"
+    },
+    "storeHours": {
+      "title": "store hours",
+      "workingDays": [
+        { "day": "Monday-Thursday", "time": "8 am - 5 pm" },
+        { "day": "Friday", "time": "8 am - 6 pm" },
+        { "day": "Saturday", "time": "9 am - 5 pm" },
+        { "day": "Sunday & Holidays", "time": "Closed" }
+      ]
+    }
+  }
+}
